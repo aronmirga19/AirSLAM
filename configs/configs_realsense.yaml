@@ -1,7 +1,7 @@
-dataroot: "/home/haoyuefan/xk_data/top_view/shahe/daytime"
-camera_config_path: "/home/xukuan/code/superpoint-superglue-with-tensorrt/configs/realsense_848_480.yaml"
-model_dir: "/home/xukuan/code/superpoint-superglue-with-tensorrt/model"
-saving_dir: "/home/xukuan/code/superpoint-superglue-with-tensorrt/saving"
+dataroot: "/media/xukuan/something/ubuntu_data/AirSLAM/realsense_test_data"
+camera_config_path: "/home/xukuan/project/AirSLAM_dev/AirSLAM/configs/realsense_848_480.yaml"
+model_dir: "/home/xukuan/project/AirSLAM_dev/AirSLAM/model/480x848"
+saving_dir: "/home/xukuan/project/AirSLAM_dev/AirSLAM/debug"
 
 superpoint:
   max_keypoints: 700
@@ -35,7 +35,7 @@ superglue:
 
 keyframe:
   min_num_match: 30
-  max_num_match: 100
-  max_distance: 1.5
+  max_num_match: 250
+  max_distance: 0.5
   max_angle: 0.52
 
