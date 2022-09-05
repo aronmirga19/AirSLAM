@@ -1,6 +1,6 @@
 superpoint:
   max_keypoints: 700
-  keypoint_threshold: 0.005
+  keypoint_threshold: 0.004
   remove_borders: 4 
   input_tensor_names: 
     - "input"
@@ -45,6 +45,20 @@ keyframe:
   # max_num_match: 150
   max_distance: 0.5
   max_angle: 0.52
+
+optimization:
+  tracking:
+    mono_point: 50
+    stereo_point: 75
+    mono_line: 50
+    stereo_line: 75
+    rate: 0.5
+  backend:
+    mono_point: 50
+    stereo_point: 75
+    mono_line: 50
+    stereo_line: 75
+    rate: 0.5
 
 ros_publisher:
   feature: 1
