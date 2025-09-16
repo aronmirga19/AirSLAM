@@ -498,6 +498,7 @@ void MapRefiner::PoseGraphRefinement(){
     rpc->tc1c2 = tc1c2;
     relative_pose_constraints.push_back(rpc);
   }
+  AddFrameVertex(it_frame->second, poses, 0, 0);
 
   // 2. add loop constraints
   for(const LoopFramePair& loop_frame_pair : loop_frame_pairs){
