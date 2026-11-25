@@ -3,7 +3,7 @@
 
 ### Accepted to IEEE Transactions on Robotics (TRO), 2025
 
-### :scroll: AirSLAM has dual-mode (V-SLAM, VI-SLAM), upgraded from [AirVO (IROS'23)](https://github.com/sair-lab/AirSLAM/releases/tag/1.0)
+### :scroll: AirSLAM has dual-mode (V-SLAM, VI-SLAM), upgraded from [AirVO (IROS'23)](https://github.com/aronmirga19/AirSLAM/releases/tag/1.0)
 
 <p align="middle">
   <img src="figures/system_arch.jpg" width="600" />
@@ -20,10 +20,10 @@ challenges. Our system adopts a hybrid approach that combines deep learning tech
 
 ## :eyes: Updates
 * [2025.01] The paper [AirSLAM](https://arxiv.org/pdf/2408.03520) was officially accepted to IEEE Transactions on Robotics (TRO).
-* [2025.01] We release the training code for PLNet. The Python code for PLNet can now be found [here](https://github.com/sair-lab/PLNet).
+* [2025.01] We release the training code for PLNet. The Python code for PLNet can now be found [here](https://github.com/aronmirga19/PLNet).
 * [2024.08] We release the code and paper for AirSLAM.
 * [2023.07] AriVO is accepted by IROS 2023.
-* [2022.10] We release the code and paper for AirVO. The code for AirVO can now be found [here](https://github.com/sair-lab/AirSLAM/tree/airvo_iros).
+* [2022.10] We release the code and paper for AirVO. The code for AirVO can now be found [here](https://github.com/aronmirga19/AirSLAM/tree/airvo_iros).
 
 
 ## :checkered_flag: Test Environment
@@ -75,7 +75,7 @@ After the map is built, the relocalization requires only monocular images. There
 ## :computer: Build
 ```
     cd ~/catkin_ws/src
-    git clone https://github.com/sair-lab/AirSLAM.git
+    git clone https://github.com/aronmirga19/AirSLAM.git
     cd ../
     catkin_make
     source ~/catkin_ws/devel/setup.bash
@@ -138,7 +138,7 @@ roslaunch air_slam reloc_euroc.launch
   journal = {IEEE Transactions on Robotics (TRO)},
   year = {2024},
   url = {https://arxiv.org/abs/2408.03520},
-  code = {https://github.com/sair-lab/AirSLAM},
+  code = {https://github.com/aronmirga19/AirSLAM},
 }
 
 @inproceedings{xu2023airvo,
@@ -147,7 +147,7 @@ roslaunch air_slam reloc_euroc.launch
   booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year = {2023},
   url = {https://arxiv.org/abs/2212.07595},
-  code = {https://github.com/sair-lab/AirVO},
+  code = {https://github.com/aronmirga19/AirVO},
   video = {https://youtu.be/YfOCLll_PfU},
 }
 ```
